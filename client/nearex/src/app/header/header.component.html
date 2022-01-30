@@ -3,11 +3,11 @@
     <div class="logo">Logo</div>
   </div>
   <div class="item-container">
-    <div class="item">Swap</div>
-    <div class="item">Liquidity</div>
-    <div class="item">Farms</div>  
+    <div class="item" routerLink="/swap" ><p>Swap</p></div>
+    <div class="item" routerLink="/liquidity"><p>Liquidity</p></div>
+    <div class="item" routerLink="/farms" ><p>Farms</p></div>  
   </div>
   <div class="wallet-container">
-    <div class="wallet"><button>Connect wallet</button></div>
+    <div class="wallet"><button (click)="connectWallet()">Connect wallet</button></div>
   </div>
 </div>

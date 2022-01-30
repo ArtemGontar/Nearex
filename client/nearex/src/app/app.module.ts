@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { SwapComponent } from './swap/swap.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    MatSliderModule,
+    MatInputModule,
+    MatButtonModule,
+    MatSelectModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule

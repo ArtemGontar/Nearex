@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { SwapComponent } from './swap/swap.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'swap', component: SwapComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },

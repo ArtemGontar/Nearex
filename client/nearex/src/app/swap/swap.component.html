@@ -1,1 +1,58 @@
-<p>swap works!</p>
+<div class="wrapper">
+  <div class="swap-tool">
+    <div class="tool">
+      <div>
+        <h1>Swap</h1>
+      </div>
+      <div class="items">
+        <div class="item">S</div>
+        <div class="item">T</div>
+        <div class="item">R</div>
+        <div class="item">G</div>
+      </div>
+    </div>
+    
+    <div class="swap">
+      <div class="swap-from">
+        <div class="swap-from-labels">
+          <div>From</div>
+          <div>Balance: 0.000011</div>
+        </div>
+        <div class="swap-from-inputs">
+          <input>
+          <button>Half</button>
+          <button>Max</button>
+          <select name="tokens" id="tokens">
+            <option value="sol">SOL</option>
+            <option value="near">NEAR</option>
+            <option value="pol">POL</option>
+            <option value="eth">ETH</option>
+          </select>
+        </div>
+      </div>
+      <div class="swap-wrapper">
+        ||
+      </div>
+      <div class="swap-to">
+        <div class="swap-to-labels">
+          <div>To(Estimate)</div>  
+        </div>
+        <div class="swap-to-inputs">
+          <input disabled>
+          <select name="tokens" id="tokens">
+            <option value="sol">SOL</option>
+            <option value="near">NEAR</option>
+            <option value="pol">POL</option>
+            <option value="eth">ETH</option>
+          </select>
+        </div>
+      </div>
+      <div class="swap-info">
+        Slippage Tolerance: 0.5%
+      </div>
+      <div class="swap-button">
+        <button>Swap</button>
+      </div>
+    </div>
+  </div>
+</div>
